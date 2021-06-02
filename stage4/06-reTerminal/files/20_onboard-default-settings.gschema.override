@@ -1,0 +1,13 @@
+[org.onboard]
+layout='Small'
+theme='Nightshade'
+xembed-onboard=true
+
+[org.onboard.window]
+docking-enabled=true
+force-to-top=true
+window-handles=''
+
+[org.onboard.auto-show]
+enabled=true
+
