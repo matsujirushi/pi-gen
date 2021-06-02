@@ -65,10 +65,10 @@ cp "$ROOTFS_DIR/etc/rpi-issue" "$INFO_FILE"
 			head -n1 | sed  -n 's|.* \([^ ]*\)$|\1|p')
 		printf "\nFirmware: https://github.com/raspberrypi/firmware/tree/%s\n" "$firmware"
 
-		kernel="$(curl -s -L "https://github.com/raspberrypi/firmware/raw/$firmware/extra/git_hash")"
+		kernel="$(${PROXYCHAINS} curl -s -L "https://github.com/raspberrypi/firmware/raw/$firmware/extra/git_hash")"
 		printf "Kernel: https://github.com/raspberrypi/linux/tree/%s\n" "$kernel"
 
-		uname="$(curl -s -L "https://github.com/raspberrypi/firmware/raw/$firmware/extra/uname_string7")"
+		uname="$(${PROXYCHAINS} curl -s -L "https://github.com/raspberrypi/firmware/raw/$firmware/extra/uname_string7")"
 		printf "Uname string: %s\n" "$uname"
 	fi
 

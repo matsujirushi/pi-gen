@@ -1,0 +1,11 @@
+IMG_NAME='Raspbian-reTerminal'
+APT_PROXY=http://192.168.111.150:3142
+USE_QCOW2=0
+USE_QEMU=0
+DEPLOY_ZIP=1
+ENABLE_SSH=1
+PROXYCHAINS=proxychains4
+GIT_MODULE='https://github.com/Seeed-Studio/seeed-linux-dtoverlays.git --depth=1'
+GIT_DEMO='https://github.com/Seeed-Studio/Seeed_Python_ReTerminalQt5Examples.git --depth=1'
+COPY_FILES=1
+WPA_COUNTRY=CN
