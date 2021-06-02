@@ -1,0 +1,22 @@
+python2.7
+raspberrypi-kernel-headers
+git
+#fonts-freefont-ttf
+#fonts-dejavu-core
+man-db manpages manpages-dev
+#gdisk
+#mousepad
+#xarchiver
+#galculator
+#geoip-database
+#build-essential
+#gcc-4.9-base
+#gcc-5-base
+#gcc-6-base
+#gcc-7-base
+#g++ g++-8
+#gdb gdbm-l10n
+cups cups-common cups-pk-helper cups-ppdc sane-utils
+pi-printer-support printer-driver-escpr system-config-printer
+geany
+thonny

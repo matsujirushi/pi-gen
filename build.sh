@@ -228,9 +228,14 @@ export PUBKEY_SSH_FIRST_USER
 export CLEAN
 export IMG_NAME
 export APT_PROXY
+export PROXYCHAINS
+export GIT_MODULE
+export GIT_DEMO
+export COPY_FILES="${COPY_FILES:-0}"
 
 export STAGE
 export STAGE_DIR
+export SUB_STAGE_DIR
 export STAGE_WORK_DIR
 export PREV_STAGE
 export PREV_STAGE_DIR
