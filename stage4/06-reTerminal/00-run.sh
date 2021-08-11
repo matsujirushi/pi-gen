@@ -4,7 +4,7 @@
 if [ "X$GIT_MODULE" != "X" ]; then
 	MODULE_PATH=/tmp/seeed-linux-dtoverlays
 	${PROXYCHAINS} git clone ${GIT_MODULE} "${ROOTFS_DIR}${MODULE_PATH}"
-	${PROXYCHAINS} wget https://goo.gl/htHv7m -O "${ROOTFS_DIR}/boot/dt-blob.bin"
+	${PROXYCHAINS} wget https://datasheets.raspberrypi.org/cmio/dt-blob-disp1-cam2.bin -O "${ROOTFS_DIR}/boot/dt-blob.bin"
 
 	on_chroot << EOF
 cd ${MODULE_PATH}
